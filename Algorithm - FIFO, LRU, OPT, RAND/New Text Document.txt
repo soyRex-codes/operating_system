@@ -1,0 +1,47 @@
+//Program skeleton
+
+executable name=>  "simpager"
+
+//standard input from command line without prompt
+
+//code a simulator=> page replacemenst algorirhm(FIFO, LRU, 
+OPT- future prediction algorithm and FIFO use for general case, RAND)
+                                                  +
+//Bullshit type: RAND - Random page replacement. This is an easy to implement,
+low-overhead page replacement strategy. Under this strategy, each page in main
+memory has an equal likelihood of being selected for replacement. One problem
+with RAND is that it may accidentally select as the next page to replace the page
+that will be referenced next. A benefit of RAND is that it makes replacement decisions
+quickly and fairly. However, because of this "hit-or-miss" approach, RAND is rarely used in practice.
+
+
+//Code structure:
+//For page reference string=> output number of page faults?
+.....algorithms for :
+FIFO
+LRU
+RAND
+
+
+
+//comments for all functions and classes
+//standard input from command line without prompt
+//1st line for strings page reference string is separated by whitespace and is terminated by a new line.
+//2ndlline is for Frames
+//3rd and 3rd++ lines for types of Algorithm types used like (FIFO, LRU, OPT, RAND)
+
+//Sample Ouput
+Example Input:
+
+7 0 1 2 0 3 0 4 2 3 0 3 2 1 2 0 1 7 0 1
+3
+FIFO
+LRU
+Example Output:
+
+% simpager < testcase1.txt
+Page Reference String:
+7 0 1 2 0 3 0 4 2 3 0 3 2 1 2 0 1 7 0 1
+Number of Frames: 3
+FIFO: 15
+LRU: 12
