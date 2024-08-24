@@ -4,8 +4,6 @@
 // Operating Systems,360
 // Programming Project #6: Project Simpager
 // April 4, 2024
-// Instructor: Dr. Siming Liu
-//
 //********************************************************************
 
 #include <iostream>
