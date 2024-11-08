@@ -1,11 +1,3 @@
-//********************************************************************
-//
-// Rajkumar Kushwaha
-// Operating Systems,360
-// Programming Project #6: Project Simpager
-// April 4, 2024
-//********************************************************************
-
 #include <iostream>
 #include <vector>
 #include <deque>
